@@ -1,0 +1,90 @@
+
+  .category-management-container {
+    max-width: 800px;
+    margin: 10% auto; /* Centered vertically with 10% margin from the top */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-management-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Larger font size for headings */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .category-management-container > div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-management-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .category-management-container button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .category-management-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .category-management-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .category-management-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-management-container li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-management-container li input[type="text"] {
+    flex: 1;
+    padding: 8px; /* Slightly smaller padding */
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .category-management-container li button {
+    padding: 8px 16px; /* Slightly smaller padding */
+    margin-left: 10px;
+    background-color: #dc3545; /* Red delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .category-management-container li button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  

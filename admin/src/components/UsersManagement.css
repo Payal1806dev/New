@@ -1,0 +1,72 @@
+.users-management-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+  }
+  
+  .users-management-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .users-management-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .users-management-container li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .users-management-container li div {
+    flex: 1;
+  }
+  
+  .users-management-container .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .users-management-container .user-details .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .users-management-container .user-details .email {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .users-management-container button {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .users-management-container button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  .users-management-container p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
